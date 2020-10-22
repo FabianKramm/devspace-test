@@ -5,4 +5,4 @@ profiles:
   - op: add
     path: deployments[0].helm.values.containers
     value:
-      image: test/test123
+      image: test123/test123
