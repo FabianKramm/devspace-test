@@ -1,0 +1,8 @@
+version: v1beta9
+profiles:
+- name: test
+  patches:
+  - op: add
+    path: deployments[0].helm.values.containers
+    value:
+      image: test/test
